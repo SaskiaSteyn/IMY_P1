@@ -1,0 +1,16 @@
+Saskia Steyn u17267162
+
+Creating the image: 
+docker build -t u17267162 .  
+
+Running the docker image: 
+docker run --name app -p 3005:3000 u17267162
+
+(3005 can be replaced with any desired port)
+
+Stopping the image: 
+docker stop app
+
+
+Deleting the image:
+docker rm app 
